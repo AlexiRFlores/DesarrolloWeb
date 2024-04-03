@@ -1,0 +1,31 @@
+.input{
+    display: grid;
+    grid-template-rows: auto;
+    grid-gap: 5%;
+    height: 140px;
+
+}
+
+body{
+    background-image: url("https://www.goiko.com/es/wp-content/uploads/2023/10/LandingMetoverso_01-1.png");
+    background-size: 100%;
+}
+fieldset{
+    background-color: orange;
+    box-shadow: 1px 1px 20px black;
+    width: 400px;
+    margin: auto;
+    
+}
+h1{
+    font-family:  Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+    text-shadow: 5px 5px 5px black;
+    background-color: orange;
+    
+}
+.btn{
+    display: grid;
+    
+}

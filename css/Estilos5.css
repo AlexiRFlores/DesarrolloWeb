@@ -1,0 +1,38 @@
+header{
+    background-color: purple;
+    color: white;
+    text-align: center;
+    font-family: 'Courier New';
+    height: 40px;
+    
+}
+
+main{
+    background-color: #101010;
+
+}
+footer{
+    background-color: purple;
+    height: 40px;
+}
+.personales{
+    background-color: lightcyan;
+    height: 300px;
+    display: grid;
+    grid-gap: 3%;
+}
+.password{
+    background-color: #f7bb08;
+    height: 160px;
+    display: grid;
+    grid-gap: 7%;
+}
+.submit{
+    background-color: #109def;
+}
+fieldset{
+    text-align: center;
+}
+h3{
+    font-family: 'Courier New';
+}

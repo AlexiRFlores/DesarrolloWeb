@@ -1,0 +1,93 @@
+.Nav-enlace{
+    background: plum;
+    color: aliceblue;
+    padding: 10px 30px;
+    display: inline-block;
+    text-decoration: none;
+}
+.Nav-enlace:hover{
+    background: pink;
+}
+
+nav{
+    background: black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.Nav-Boton{
+    background: plum;
+    color: aliceblue;
+    padding: 10px 30px;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid white;
+    display: none;
+}
+.Nav-Boton:hover{
+    background: pink;
+}
+
+@media(max-width: 600px){
+    .Nav-enlace{
+        padding: 10px 30px;
+        margin: 10px;
+
+    }
+    nav{
+        background: gray;
+        flex-direction: column;
+    }
+    .Nav-Boton{
+        display: inline-block;
+    }
+    .desaparece{
+        display: none;
+    }
+
+    
+}
+.Contenedor{
+    margin : 0 auto;
+}
+.Contenedor{
+    display: flex;
+    text-align: center;
+    width:100%;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    
+}
+.precio{
+    font-size: 50px;
+    color:aqua;
+}
+.columna
+{
+    background: rgb(238,238,238);
+    margin: 10px;
+    color:#333;
+    border: 1px solid #333;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: -10px 10px 10px #888;
+}
+.btn-precio{
+    display: block;
+    background: salmon;
+    padding: 10px;
+    color:#fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+.btn-precio:hover{
+    background: #ec5241;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    text-shadow:#333;
+
+}

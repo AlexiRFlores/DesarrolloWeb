@@ -1,0 +1,26 @@
+body{
+    background-image: url('https://png.pngtree.com/background/20210715/original/pngtree-people-with-likes-on-facebook-background-picture-image_1303211.jpg'); /* Especifica la ruta de tu imagen */
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir el contenedor */
+    background-position: center; /* Centra la imagen en el contenedor */
+    /* Puedes añadir más estilos CSS según sea necesario */
+}
+header{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+main{
+    text-align: center;
+}
+
+fieldset{
+    width: 50px;
+    margin: auto;
+    margin-top: 20%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-transform: uppercase;
+    box-shadow: 5px;
+    border: 5px solid white;
+    border-radius: 5px;
+}

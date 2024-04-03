@@ -1,0 +1,23 @@
+body{
+    background-color: lightblue;
+}
+@media screen and (max-width:800px){
+    body{
+        background-color: red;
+    }
+}
+@media screen and (max-width:600px) {
+    body{
+        background-color: green;
+    }
+}
+@media screen and (max-width:400px) {
+    body{
+        background-color: purple;
+    }
+}
+@media screen and (max-width:200px) {
+    body{
+        background-color: black
+    }
+}
